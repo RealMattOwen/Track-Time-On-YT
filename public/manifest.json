@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "Track Time Spent On YouTube",
+	"description": "This extension times how long you have YouTube open as an active tab. The timer resets daily.",
+	"version": "1.0.0",
+	"author": "Matt Owen",
+	"browser_action": {
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"icons": {
+		"128": "icon128.png"
+	},
+	"permissions": ["activeTab","tabs","storage"]
+}

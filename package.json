@@ -8,7 +8,7 @@
 		"ie > 9"
 	],
 	"scripts": {
-		"build": "webpack",
+		"build": "webpack -p",
 		"dev-server": "webpack-dev-server",
 		"flow": "flow"
 	},
