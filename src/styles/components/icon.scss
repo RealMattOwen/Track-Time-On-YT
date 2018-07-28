@@ -1,0 +1,33 @@
+.container {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	position: relative;
+}
+
+.icon {
+	height: 150px;
+	width: 150px;
+}
+
+.pulse-ring {
+	animation: pulsate infinite 1s;
+	border: 10px solid #d22215;
+	border-radius: 50%;
+	content: '';
+	height: 150px;
+	position: absolute;
+	width: 150px;
+}
+
+@keyframes pulsate {
+	0% {
+		opacity: 1;
+		transform: scale(1, 1);
+	}
+	100% {
+		opacity: 0;
+		transform: scale(1.2, 1.2);
+	}
+}
